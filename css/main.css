@@ -24,6 +24,11 @@ img {
   width: 100%;
 }
 
+.main-nav {
+  background-color: tomato;
+  padding: 1rem;
+}
+
 .main-nav ul {
   list-style: none;
   display: flex;
@@ -70,7 +75,7 @@ form textarea {
 }
 
 form button {
-  background: none;
+  background: tomato;
   border: 2px solid black;
   padding: 1rem;
   text-transform: uppercase;
@@ -100,13 +105,14 @@ form button {
 }
 
 .skip-links ul li {
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 
 .skip-links {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.8);
-  left: -25px;
+  top: -23px;
+  left: -42px;
   padding: 10px;
   z-index: 1000;
 }
