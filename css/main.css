@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   margin: 0;
   padding: 0;
 }
@@ -85,34 +85,26 @@ form button {
   padding: 2rem 0;
 }
 
-/* Skip link style */
-.skip-links ul {
+/* Skip link */
+.skip-links {
   list-style-type: none;
-  position: relative;
+  padding: 0;
+  margin: 0;
 }
 
 .skip-links a {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
   text-decoration: none;
-  color: #000;
-}
-
-.skip-links a:hover {
-  color: gray;
+  background-color: black;
+  color: yellow;
+  font-weight: bold;
+  padding: 1em 1em  ;
 }
 
 .skip-links a:focus {
-  background-color: yellow;
-}
-
-.skip-links ul li {
-  margin-bottom: 2px;
-}
-
-.skip-links {
-  position: fixed;
-  background-color: rgba(255, 255, 255, 0.8);
-  top: -23px;
-  left: -42px;
-  padding: 10px;
+  left: 0;
+  opacity: 1;
   z-index: 1000;
 }
