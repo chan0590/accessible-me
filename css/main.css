@@ -49,8 +49,16 @@ img {
   font-size: 1.25rem;
 }
 
+.main-nav {
+  color: white;
+}
+
+.main-nav a:hover {
+  color: black;
+}
+
 .main-nav a:focus {
-  background-color: yellow;
+  background-color: black;
 }
 
 .owner ul {
